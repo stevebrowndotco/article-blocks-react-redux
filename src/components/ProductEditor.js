@@ -32,7 +32,6 @@ let ProductEditor = ({products, action, block, dispatch}) => {
             </div>
             <h3>{item.retailer}</h3>
             <p>£ {item.price}</p>
-            <p>£ {item.id}</p>
         </li>
     )
 
