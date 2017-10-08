@@ -1,4 +1,4 @@
-# Article Blocks with React and Redux
+# A Fashion CMS Build in React and Redux
 
 Check out the app here: [Link](http://mobula-test.stevebrown.co/)
 
