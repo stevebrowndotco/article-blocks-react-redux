@@ -6,8 +6,10 @@ let ProductEditor = ({products, action, block, dispatch}) => {
 
     let selectedProducts = block && block.selectedProducts || [];
 
-    const onClickDelete = function() {
+    const onClickDelete = function(e) {
+        e.preventDefault();
         dispatch(deleteBlock(block.id))
+        return false;
     }
 
     const imageStyle = (image) => {

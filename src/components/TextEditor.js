@@ -5,7 +5,8 @@ import {addEditBlock, deleteBlock} from '../actions'
 
 let TextEditor = ({block, action, dispatch}) => {
     let title, body;
-    const onClickDelete = function() {
+    const onClickDelete = function(e) {
+        e.preventDefault();
         dispatch(deleteBlock(block.id))
     }
     return (

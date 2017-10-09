@@ -33,6 +33,7 @@ let ProductBlock = ({products, onClick, selectedProducts}) => {
             <button onClick={onClick}>Edit</button>
         </div>
     );
+
 }
 
 const mapStateToProps = (state) => {
