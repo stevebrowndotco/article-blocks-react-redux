@@ -2,8 +2,6 @@
 
 Check out the app here: [Link](http://mobula-test.stevebrown.co/)
 
-This is my test for Mobula. Written in React and Redux.
-
 ## Setup
 In the project directory, you can run:
 
